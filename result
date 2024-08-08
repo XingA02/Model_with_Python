@@ -1,0 +1,22 @@
+digraph G {
+	overlap=scale splines=true
+	edge [fontsize=12]
+	node [fillcolor="#cae6df" shape=circle style=filled]
+	node [shape=box style=""]
+	y1 [label=y1]
+	y2 [label=y2]
+	x1 [label=x1]
+	x2 [label=x2]
+	y3 [label=y3]
+	y4 [label=y4]
+	y5 [label=y5]
+	y6 [label=y6]
+	x1 -> y1 [label="1.693\np-val: 0.05"]
+	x2 -> y1 [label="-0.176\np-val: 0.67"]
+	x1 -> y2 [label="-1.849\np-val: 0.03"]
+	x2 -> y2 [label="0.359\np-val: 0.37"]
+	y3 -> y2 [label="-0.028\np-val: 0.80"]
+	y4 -> y2 [label="0.574\np-val: 0.00"]
+	y5 -> y2 [label="0.221\np-val: 0.17"]
+	y6 -> y2 [label="0.447\np-val: 0.00"]
+}
